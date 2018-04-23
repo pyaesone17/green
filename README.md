@@ -1,6 +1,6 @@
 # Green PHP pure framework
 
-## Implementing pure PHP micro framework from scratch using some popular components.
+### Implementing pure PHP micro framework from scratch using some popular components.
 
 Register your route in web/index.php
 
