@@ -12,6 +12,11 @@ RecipeController
 
 ```php
 
+
+class RecipeController extends MainController
+{
+    use PsrToHttpFoundation,HttpFoundationToPsr;
+
     public function __construct()
     {
         $this->recipeService = new RecipeService;
