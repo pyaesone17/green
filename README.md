@@ -34,3 +34,17 @@ class RecipeController extends MainController
 
 See more under Green\Http\Controllers and Green\Services
 
+### Error handling 
+It is configured to response json error response.
+
+The default will show error detail for debugging purpose.
+
+You can disable under web/config/app.php
+
+```php
+<?php 
+
+return [
+    'debug' => false
+];
+```
