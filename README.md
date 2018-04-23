@@ -48,3 +48,11 @@ return [
     'debug' => false
 ];
 ```
+
+### Authentication
+It is supported by Jwt token. You can access current user using like below. If the user is not authenticated, it will response 
+token error.
+
+```php
+$request->user();
+````
